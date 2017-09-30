@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% block head %}
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Mad IT House">
+	<!-- <base href="/"> -->
+	<title>{% block title %}{% endblock %}</title>
+  <link rel="stylesheet" href="/assets/styles/bootstrap.min.css">
+	<link rel="stylesheet" href="/assets/styles/main.css">
+  {% endblock %}
+  {% block additionalhead %}{% endblock %}
+</head>
+<body class="{% block bodyclass %}{% endblock %}">
+  {% block body %}
+	<!-- container -->
+	<div class="{% block containerclass %}container{% endblock %}">
+        {% block container %}{% endblock %}
+	</div> <!-- #end container -->
+  {% endblock %}
+	<!-- Dev only -->
+	<!-- Vendors -->
+	<script src="/assets/scripts/jquery-latest.slim.min.js"></script>
+  <script src="/assets/scripts/popper-latest.min.js"></script>
+  <script src="/assets/scripts/bootstrap.min.js"></script>
+  <script src="/assets/scripts/app.js"></script>
+  {% block additonalScripts %}{% endblock %}
+
+</body>
+</html>

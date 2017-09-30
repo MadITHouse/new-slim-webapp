@@ -1,0 +1,46 @@
+{% extends "_base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block additionalhead %}
+  <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/examples/cover/cover.css">
+{% endblock %}
+
+{% block containerclass %}site-wrapper{% endblock %}
+
+{% block container %}
+
+  <div class="site-wrapper-inner">
+
+    <div class="cover-container">
+
+      <div class="masthead clearfix">
+        <div class="inner">
+          <h3 class="masthead-brand">New Slim WebApp</h3>
+          <nav class="nav nav-masthead">
+            <a class="nav-link active" href="/">Home</a>
+            <a class="nav-link" href="/auth/signin">Sign In</a>
+          </nav>
+        </div>
+      </div>
+
+      <div class="inner cover">
+        <h1 class="cover-heading">madithouse/new-slim-webapp</h1>
+        <p class="lead">
+          Visit the <a href="https://github.com/madithouse/new-slim-webapp">documentation</a> to understand more.<br />
+        </p>
+        <p class="lead">
+        </p>
+      </div>
+
+      <div class="mastfoot">
+        <div class="inner">
+          <p>Cover template for <a href="https://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+{% endblock %}

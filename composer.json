@@ -1,0 +1,38 @@
+{
+      "name":"madithouse/new-slim-webapp",
+      "description":"New Slim WebApp skeleton",
+      "version":"1.0.0-dev",
+      "type":"project",
+      "license": "MIT",
+      "authors": [
+        {
+          "name": "Haseeb Ur Rehman",
+          "email": "haseeb@madithouse.com",
+          "homepage": "https://madithouse.com"
+        }
+      ],
+      "support": {
+          "issues": "https://github.com/madithouse/new-slim-webapp/issues",
+          "source": "https://github.com/madithouse/new-slim-webapp",
+          "wiki": "https://github.com/madithouse/new-slim-webapp/wiki"
+      },
+      "config":{
+        "vendor-dir":"libs"
+      },
+      "autoload":{
+        "psr-4":{
+          "MadSlimWeb\\":"src/classes",
+          "MadSlimWeb\\Middlewares\\":"src/Middlewares"
+        }
+      },
+      "require": {
+            "php":">5.6.0",
+            "slim/slim": "^3.0",
+            "slim/twig-view": "^2.2",
+            "slim/flash": "^0.2.0",
+            "phpmailer/phpmailer": "~6.0",
+            "illuminate/database": "^5.4",
+            "illuminate/events": "^5.4"
+
+      }
+}
