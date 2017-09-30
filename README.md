@@ -1,5 +1,5 @@
 ## madithouse/new-slim-webapp
-Version: 1.0.0-dev
+Version: 1.0.0 Stable
 
 ## About
 madithouse/new-slim-webapp is build using slim/slim, and contain basic settings to get started with a new PHP project.
