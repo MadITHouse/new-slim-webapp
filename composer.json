@@ -1,7 +1,7 @@
 {
       "name":"madithouse/new-slim-webapp",
       "description":"New Slim WebApp skeleton",
-      "version":"1.0.0-dev",
+      "version":"1.0.0",
       "type":"project",
       "license": "MIT",
       "authors": [
